@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Acasa</title>
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link rel="stylesheet" href="stiluri/style.css"/>
+</head>
+<form action="include/mail.php" method="POST" class="elegant-aero">
+<h1>Contact Form<span>Completati toate campurile.</span> </h1>
+<label><span>Numele tau</span><input type="text" name="name"></label>
+<label><span>E-mail</span><input type="email" name="email">  </label>
+<label><span>Telefon</span><input type="tel" name="phone"></label>
+<label><span>Website</span><input type="url" name="website"></label>
+ <label><span>Prioritate </span> <select name="priority" size="1">
+<option value="Low">Low</option>
+<option value="Normal">Normal</option>
+<option value="High">High</option>
+<option value="Emergency">Emergency</option></select></label>
+<label><span>Categorie</span>
+<select name="type" size="1">
+<option value="produs">Produse</option>
+<option value="factura">Factura</option>
+<option value="addition">Informatii</option>
+<option value="sesizare">Sesizari</option>
+</select></label>
+<label><span>Mesajul tau</span><textarea name="message" rows="6" cols="25"></textarea></label>
+<button type="submit" value="Send">Trimite</button>
+</form>
+</body>
+</html>
