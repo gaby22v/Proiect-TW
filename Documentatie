@@ -1,0 +1,11 @@
+# Proiect-TW
+Proiect TW
+Proiectul este realizat in PHP + SQL.
+Fisierul pentru crearea bazei de date trebuie imporat in PhpMyAdmin.
+Facilitati:
+-paginare;
+-galerie imagini;
+-formular contact;
+-vote poll;
+-grafic;
+-PDF cu informatii din baza de date.
